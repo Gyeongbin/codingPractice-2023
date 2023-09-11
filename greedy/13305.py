@@ -5,10 +5,6 @@ N = int(input().rstrip())
 road = list(map(int,input().split()))
 value = list(map(int,input().split()))
 
-# print(N)
-# print(road_len)
-# print(value)
-
 cost = value[0]
 total_cost = road[0] * cost
 for i in range(1, N-1) :
